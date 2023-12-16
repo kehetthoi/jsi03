@@ -1,15 +1,24 @@
 // let arr = [1, 3, 2, 5, 7, 4, 5, 9, 12, 18, 17];
 
-       
-//         let sum = arr.reduce((a, b) => a + b, 0);
-//         console.log("Tổng của mảng là:", sum);
+// let tong=0;     
+// for (var i=0;i < arr.length;i++){
+//    tong +=arr[i]
+// }
+// console.log(tong)
 
         
-//         let max = Math.max(...arr);
-//         let min = Math.min(...arr);
-//         console.log("Phần tử lớn nhất là:", max);
-//         console.log("Phần tử nhỏ nhất là:", min);
-
+//         let max =arr[0]
+//         for(i =1;i < arr.length;i++){
+//             if(arr[i]>max)
+//             max=arr[i]
+//         }
+//         let min = arr[0];
+//         for(i=1;i<arr.length;i++){
+//         if(arr[i]<min)
+//         min=arr[i]
+//         }
+//         console.log(max)
+//         console.log(min)
       
 //         let reversedArr = arr.reverse();
 //         console.log("Mảng sau khi đảo ngược là:", reversedArr);
@@ -55,14 +64,12 @@ let country = {
 };
 
 
-function listAttributes(obj) {
-    return Object.keys(obj);
-}
+
 
 
 console.log(getPersonInfo(person)); 
-addAttribute(person, "email", "john@example.com");
+addAttribute(person, "email", "huy.com");
 console.log(person.email);
 removeAttribute(person, "address");
- console.log(person.address); 
-console.log(listAttributes(country)); 
+ 
+console.log(country); 
