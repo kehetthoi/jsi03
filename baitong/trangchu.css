@@ -1,0 +1,42 @@
+.menu{
+    width: 1480px;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: end;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+button:hover {
+    background-color: #0056b3;
+}
+.tong{
+    width: 1000px;
+    height: 1970px;
+    background-color: grey;
+    margin-left: 300px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.post{
+    border: 1px solid #ccc;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white ;
+}
+
+  
+
