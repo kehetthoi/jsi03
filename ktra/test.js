@@ -6,12 +6,12 @@
 
 
 // let str = "High knowledge,high return";
-// let arr = str.split("");
+// let arr = str.split();
 // let filteredArr = arr.filter(item => item !== "" ); 
 // arr = arr.map(word => word.toLowerCase());
 // console.log(arr);
 
-// Định nghĩa lớp Employee
+
 class Employee {
     constructor(name, salary) {
       this.name = name;
@@ -23,7 +23,7 @@ class Employee {
     }
   }
   
-  // Định nghĩa lớp Manager kế thừa từ Employee
+  
   class Manager extends Employee {
     constructor(name, salary, department) {
       super(name, salary);
@@ -36,7 +36,7 @@ class Employee {
     }
   }
   
-  // Sử dụng các lớp đã định nghĩa
+  
   let emp1 = new Employee("Ho Van Ngoc", "5000$");
   emp1.displayInfo();
   
